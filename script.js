@@ -528,7 +528,7 @@ function enterSite() {
     document.getElementById("splash-screen").style.display = "none";
 
     // تشغيل ملف صوت/فيديو ترحيبي
-    let audio = new Audio("hello.wav"); // ضع ملفك الصوتي باسم welcome.mp3
+    let audio = new Audio("solor.wav"); // ضع ملفك الصوتي باسم welcome.mp3
     audio.play();
 }
 function captureAndSave() {
@@ -543,3 +543,4 @@ function captureAndSave() {
         link.click();
     });
 }
+
